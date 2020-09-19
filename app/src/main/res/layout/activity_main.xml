@@ -37,7 +37,113 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8"
-        android:orientation="horizontal"/>
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/clear"
+            style="@style/AppOperatorsButton"
+            android:text="C"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/divider"
+            style="@style/AppOperatorsButton"
+            android:text="/"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/numberSeven"
+            style="@style/AppNumbersButton"
+            android:text="7"/>
+        <TextView
+            android:id="@+id/numberEite"
+            style="@style/AppNumbersButton"
+            android:text="8"/>
+        <TextView
+            android:id="@+id/numberNine"
+            style="@style/AppNumbersButton"
+            android:text="9"/>
+        <TextView
+            android:id="@+id/multiple"
+            style="@style/AppOperatorsButton"
+            android:text="X"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/numberFour"
+            style="@style/AppNumbersButton"
+            android:text="4"/>
+        <TextView
+            android:id="@+id/numberFive"
+            style="@style/AppNumbersButton"
+            android:text="5"/>
+        <TextView
+            android:id="@+id/numberSix"
+            style="@style/AppNumbersButton"
+            android:text="6"/>
+        <TextView
+            android:id="@+id/sub"
+            style="@style/AppOperatorsButton"
+            android:text="X"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/numberThree"
+            style="@style/AppNumbersButton"
+            android:text="3"/>
+        <TextView
+            android:id="@+id/numberTwo"
+            style="@style/AppNumbersButton"
+            android:text="2"/>
+        <TextView
+            android:id="@+id/numberOne"
+            style="@style/AppNumbersButton"
+            android:text="1"/>
+        <TextView
+            android:id="@+id/sum"
+            style="@style/AppOperatorsButton"
+            android:text="+"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/point"
+            style="@style/AppNumbersButton"
+            android:text="."/>
+        <TextView
+            android:id="@+id/numberZero"
+            style="@style/AppNumbersButton"
+            android:text="0"/>
+        <TextView
+            android:id="@+id/backscape"
+            style="@style/AppNumbersButton"
+            android:text="CL"/>
+        <TextView
+            android:id="@+id/equal"
+            style="@style/AppOperatorsButton"
+            android:text="="
+            />
+    </LinearLayout>
 
 
-  </LinearLayout>
+
+
+</LinearLayout>
